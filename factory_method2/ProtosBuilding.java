@@ -1,4 +1,4 @@
-public class ProtosBuilding extends Builing {
+public class ProtosBuilding extends Building {
 
     @Override
     Unit createUnit() {

@@ -1,4 +1,4 @@
-public class ZergBuilding extends Builing {
+public class ZergBuilding extends Building {
 
     @Override
     Unit createUnit() {

@@ -1,4 +1,4 @@
-public class TerranBuilding extends Builing {
+public class TerranBuilding extends Building {
 
     @Override
     Unit createUnit() {
