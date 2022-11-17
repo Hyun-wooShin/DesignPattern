@@ -1,11 +1,8 @@
 public class TerranScv extends Worker {
-    private int hp;
-    private int power;
 
     public TerranScv(int hp, int power)
     {
-        this.hp = hp;
-        this.power = power;
+        super(hp,power);
     }
 
     @Override

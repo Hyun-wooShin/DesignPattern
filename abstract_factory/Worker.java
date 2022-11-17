@@ -1,4 +1,9 @@
-public class Worker implements Buildable,Gatherable {
+public class Worker extends Unit implements Buildable,Gatherable {
+
+    public Worker(int hp, int power) {
+        super(hp, power);
+        //TODO Auto-generated constructor stub
+    }
 
     @Override
     public void gather() {

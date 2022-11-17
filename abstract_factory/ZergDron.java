@@ -1,11 +1,8 @@
 public class ZergDron extends Worker {
-    private int hp;
-    private int power;
 
     public ZergDron(int hp, int power)
     {
-        this.hp = hp;
-        this.power = power;
+        super(hp, power);
     }
 
     @Override
