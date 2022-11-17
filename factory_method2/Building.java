@@ -1,4 +1,4 @@
-public abstract class Builing {
+public abstract class Building {
     public Unit commandCreateUnit()
     {
         Unit unit = createUnit();
